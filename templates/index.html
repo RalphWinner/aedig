@@ -8,7 +8,7 @@
   <meta content="" name="description">
   {% load static %}
   <!-- Favicons -->
-  <link href={% static 'img/favicon.ico' %} rel="icon">
+  <link href={% static 'img/favicon.png' %} rel="icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700" rel="stylesheet">
@@ -43,10 +43,11 @@
   <section id="topbar" class="d-none d-lg-block">
     <div class="container clearfix">
       <div class="contact-info float-left">
-        <i class="fa fa-envelope-o"></i> <a href="mailto:contact@example.com">aedig@aedig.com</a>
-        <i class="fa fa-phone"></i> +509 3832 5242
+        <i class="fa fa-envelope-o"></i> <a href="mailto:Aedig.haiti@gmail.com">Aedig.haiti@gmail.com</a>
+        <i class="fa fa-phone"></i> +509 3740 3130
       </div>
       <div class="social-links float-right">
+        <a href="https://api.whatsapp.com/send?phone=50938325242&text=Please,%20Waiting%20for%20answer" class="twitter"><i class="fa fa-whatsapp"></i></a>
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
         <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
@@ -65,7 +66,7 @@
       <div id="logo" class="pull-left">
         <!-- <h1><a href="#body" class="scrollto">AE<span>DIG</span></a></h1> -->
         <!-- Uncomment below if you prefer to use an image logo -->
-        <a href="#body"><img src="img/logo.jpg" alt="" title="" /></a>
+        <a href="#body"><img src={% static "img/logo.jpg" %} alt="" title="" /></a>
       </div>
 
       <nav id="nav-menu-container">
@@ -98,7 +99,7 @@
       <h2>Association <span>des Entrepreneurs</span><br> Digicel</h2>
       <div>
         <a href="#about" class="btn-get-started scrollto">Qui Sommes Nous</a>
-        <a href="AEDIG (BROCHURE francais).pdf" class="btn-projects scrollto">Telecharger notre pdf</a>
+        <a href={% static '/AEDIG (BROCHURE francais).pdf' %} class="btn-projects scrollto">Telecharger notre pdf</a>
       </div>
     </div>
 
@@ -125,14 +126,14 @@
           </div>
 
           <div class="col-lg-6 content">
-            <h2>A propos  de l'AEDIG</h2>
-            <h3>Une organisation natinale pour representer les interets de la communaute des entrepreneurs d'Haiti et pour promouvoir une economie mene par l'entreprise</h3>
+            <h2>A propos de l'AEDIG</h2>
+            <h3>Une organisation nationale pour représenter les intérêts de la communauté des entrepreneurs d'Haïti et pour promouvoir une économie mené par l'entreprise</h3>
 
             <ul>
-              <li><i class="ion-android-checkmark-circle"></i> Les vainqueus et finaliste du programme DIgicel Entrepreneur de l'annee en Haiti se sont reunis en 2016 pour lancer une nouvelle association nationale capable de donner une voix rafraichisante capable de donner une voix rafraichissante aux entreprise tout en promouvant une economie moderne, socialement responsable et axee sur l'entreprise</li>
-              <li><i class="ion-android-checkmark-circle"></i> Quoique les entrepruneur ont tendance a se focaliser sur leur propres ressources, ils valorisent tout de meme le reseautage et le soutient mutuel. l'Association des Entrepreneurs Digicel (AEDIG) vise en ce sens, a renforcer les capacite de ses membres a travers un accompagnement personalise, l'education et le reseautage. Les membre de l'AEDIG savent qu'ils sont plus a gangner ensemble que separes. aussi, sont-ils conscients que c'est seulement en travaillant conjointement qu'ils peuvent contribuer a un veritable changement.</li>
-              <li><i class="ion-android-checkmark-circle"></i> Plus de 500 finalistes des annees anterieure du programme Digicel Entrepreneur de l'annee constitue l'epine dorsale de l'AEDIG ce qui lui conferent une enorme diversite, et representant tout les secteur d'activite dans tous les recoins du pays. Cette diversite sociale qui predomine entre les membres de l'association, signifie qu'ils ont de profondes racines economiques et familliale dans les diverse collectvite locale a travers le pays ; et ces racines pour leur part, demontrent le statut indeniable de l'association, capable d'etre une voix representative et nationale pour les entrepreneurs.</li>
-              <li><i class="ion-android-checkmark-circle"></i>.......</li>
+              <li><i class="ion-android-checkmark-circle"></i> Les vainqueurs et finaliste du programme Digicel Entrepreneur de l'année en Haïti se sont réunis en 2016 pour lancer une nouvelle association nationale capable de donner une voix rafraichissante capable de donner une voix rafraichissante aux entreprises tout en promouvant une économie moderne, socialement responsable et axée sur l'entreprise</li>
+              <li><i class="ion-android-checkmark-circle"></i> Quoique les entrepreneurs aient tendance à se focaliser sur leurs propres ressources, ils valorisent tout de même le réseautage et le soutiennent mutuel. l'Association des entrepreneurs Digicel (AEDIG) vise en ce sens, à renforcer les capacités de ses membres à travers un accompagnement personalise, l'éducation et le réseautage. Les membres de l'AEDIG savent qu'ils sont plus à gagner ensemble que sépares. aussi, sont-ils conscients que c'est seulement en travaillant conjointement qu'ils peuvent contribuer à un véritable changement.</li>
+              <li><i class="ion-android-checkmark-circle"></i> Plus de 500 finalistes des années antérieures du programme Digicel Entrepreneur de l'année constituent l'Épine dorsale de l'AEDIG ce qui lui confère une énorme diversité, et représentant tous les secteurs d'activité dans tous les recoins du pays. Cette diversité sociale qui prédomine entre les membres de l'association, signifie qu'ils ont de profondes racines économiques et familiales dans la diverse collective locale à travers le pays ; et ses racines pour leur part, démontrent le statut indéniable de l'association, capable d'être une voix représentative et nationale pour les entrepreneurs.</li>
+              <li><i class="ion-android-checkmark-circle"></i>l'AEDIG est conçue pour tirer parti de l'expérience et des connaissances de tous ses membres, les encourager à faire des affaires ensemble, et fournir des services de mentorat, dans le but ultime de promouvoir l'amélioration constante des compétences essentielles en affaires. Bref, être une locomotive pour impulser des changements positifs en Haïti.</li>
             </ul>
 
           </div>
@@ -147,8 +148,8 @@
     <section id="services">
       <div class="container">
         <div class="section-header">
-          <h2>Qu'est ce qui differencie AEDIG?</h2>
-          <p>Etant donne la grande diversite sociale de ses membres, AEDIG est une voix representative pour les entrepreneurs a l'echelle nationale. Elle compte deja plus de 500 membres affilies ayant des interets comerciaux dans pas moins de 10 secteurs d'affaires distincts.</p>
+          <h2>Qu'est-ce qui différencie AEDIG?</h2>
+          <p>Étant donne la grande diversité sociale de ses membres, AEDIG est une voix représentative pour les entrepreneurs à l'échelle nationale. Elle compte déjà plus de 500 membres affilient ayant des intérêts commerciaux dans pas moins de 10 secteurs d'affaires distinctes.</p>
         </div>
 
         <div class="row">
@@ -156,7 +157,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="fa fa-pagelines"></i></div>
-              <h4 class="title"><a href="">Agriculture</a></h4>
+              <h4 class="title"><a href="#">Agriculture</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -164,7 +165,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-linode"></i></div>
-              <h4 class="title"><a href="">Artisinat</a></h4>
+              <h4 class="title"><a href="#">Artisinat</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -172,7 +173,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-building"></i></div>
-              <h4 class="title"><a href="">Construction</a></h4>
+              <h4 class="title"><a href="#">Construction</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -184,7 +185,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-graduation-cap"></i></div>
-              <h4 class="title"><a href="">Education</a></h4>
+              <h4 class="title"><a href="#">Education</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -192,7 +193,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInLeft">
               <div class="icon"><i class="fa fa-lightbulb-o"></i></div>
-              <h4 class="title"><a href="">Environnement / Energie</a></h4>
+              <h4 class="title"><a href="#">Environnement / Energie</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -200,7 +201,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight">
               <div class="icon"><i class="fa fa-hospital-o"></i></div>
-              <h4 class="title"><a href="">Hotel et Restaurant</a></h4>
+              <h4 class="title"><a href="#">Hotel et Restaurant</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -212,7 +213,7 @@
             <div class="col-lg-4">
             <div class="box wow fadeInLeft" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-industry"></i></div>
-              <h4 class="title"><a href="">Indistrie</a></h4>
+              <h4 class="title"><a href="#">Indistrie</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -220,7 +221,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-plus-square"></i></div>
-              <h4 class="title"><a href="">Sante</a></h4>
+              <h4 class="title"><a href="#">Sante</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -228,7 +229,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-signal"></i></div>
-              <h4 class="title"><a href="">Services / Technologie</a></h4>
+              <h4 class="title"><a href="#">Services / Technologie</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -237,7 +238,7 @@
           <div class="col-lg-4">
             <div class="box wow fadeInRight" data-wow-delay="0.2s">
               <div class="icon"><i class="fa fa-map"></i></div>
-              <h4 class="title"><a href="">Tourisme et Culture</a></h4>
+              <h4 class="title"><a href="#">Tourisme et Culture</a></h4>
               <p class="description"></p>
             </div>
           </div>
@@ -253,18 +254,18 @@
       <div class="container">
         <div class="section-header">
           <h2>Mission</h2>
-          <p>Vu l'energie, la determination et la vision que cela necessite pour materialiser une idee intuitive, brillante en succes, ils s'avere que les entrepreneur ont beaucoup plus a dire et a faire que la plupart des gens. Nous en sommes tous profondement convaincus et le disont haut et fort, tel que stipule la devise de notre pays l'<b> Union fait la force </b> .</p>
+          <p>Vu l'énergie, la détermination et la vision que cela nécessite pour matérialiser une idée intuitive, brillante en succès, il s'avère que les entrepreneurs ont beaucoup plus à dire et à faire que la plupart des gens. Nous en sommes tous profondément convaincus et le disons haut et fort, tel que stipule la devise de notre pays l'<b> Union fait la force </b> .</p>
         </div>
 
         <ul>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir la culture entrepreneuriale: </b> en faisant le plaidoyer d'une economie axee autour de l'entreprenariat</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Assurer le coaching de nos membres: </b> en fournissant l'accompagnement necessaire, donnant acces aux informations et aux formations essentielles, et en facilitant la communication et le reseautage</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Garantir la protection de nos membres: </b> en assurant la defense de leur interets</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir les initiatives entrepreneuriale: </b> en faisant le plaidoyer d'une economie axee autour de l'entreprenariat</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir la culture entrepreneuriale: </b> en encourageant, facilitant et consolidant les activites commerciales de nos membres</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Fournir un service d'ecoute: </b> en prenant compte les suggestions de nos membres, et en identifiant les defits auxquels ils ont face</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir la culture entrepreneuriale: </b> en faisant le plaidoyer d'une économie axée autour de l'entreprenariat</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Assurer le coaching de nos membres: </b> en fournissant l'accompagnement nécessaire, donnant accès aux informations et aux formations essentielles, et en facilitant la communication et le réseautage</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Garantir la protection de nos membres: </b> en assurant la défense de leurs intérêts</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir les initiatives entrepreneuriale: </b> en faisant le plaidoyer d'une économie axée autour de l'entreprenariat</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir la culture entrepreneuriale: </b> en encourageant, facilitant et consolidant les activités commerciales de nos membres</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Fournir un service d'écoute: </b> en prenant compte les suggestions de nos membres, et en identifiant les défaits auxquels ils font face</li>
           <li><i class="ion-android-checkmark-circle"></i> <b>Promouvoir : </b> l'excellence de nos entreprises et la production locale</li>
-          <li><i class="ion-android-checkmark-circle"></i> <b>Transmettre, Partager: </b> en encourageant nos membres a diffuser leur connaissances et leurs experiences.</li>
+          <li><i class="ion-android-checkmark-circle"></i> <b>Transmettre, Partager: </b> en encourageant nos membres à diffuser leurs connaissances et leurs expériences.</li>
         </ul>
       </div>
     </section><!-- #clients -->
@@ -383,14 +384,14 @@
       <div class="container">
         <div class="section-header">
           <h2>TÉMOIGNAGES</h2>
-          <p>Declaration sur l'AEDIG</p>
+          <p>temoignage *</p>
         </div>
         <div class="owl-carousel testimonials-carousel">
 
             <div class="testimonial-item">
               <p>
                 <img src={% static "img/quote-sign-left.png" %} class="quote-sign-left" alt="">
-                En tant que porte-parole des petites et Moyennes entreprises, l'AEDIG promeut l'Excellence en affaires en connectant entre eux les entrepreneurs, les aidant a etablir des partenariats, leur donnant acces aux informations de pointe et en assurant la formation continue des cadres. 
+                En tant que porte-parole des petites et Moyennes entreprises, l'AEDIG promeut l'Excellence en affaires en connectant entre eux les entrepreneurs, les aidant à établir des partenariats, leur donnant accès aux informations de pointe et en assurant la formation continue des cadres. 
                 <img src={% static "img/quote-sign-right.png" %} class="quote-sign-right" alt="">
               </p>
               <img src={% static "img/testimonial-2.jpg" %}  class="testimonial-img" alt="">
@@ -485,10 +486,10 @@
                 <h4>Myrtha Vilbon</h4>
                 <span>Presidente, PDG Glory Indistries</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -501,10 +502,10 @@
                 <h4>Athanese Louis</h4>
                 <span>Premier Vice President, PDG Atalou Microsystem</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -517,10 +518,10 @@
                 <h4>Jean Odelin Ordelus</h4>
                 <span>Deuxiem Vice President, PDG OD Peint Groupe Construction</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -533,10 +534,10 @@
                 <h4>Daphnee Floreal</h4>
                 <span>Tresoriere, PDG Bijou Lakay</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -552,10 +553,10 @@
                 <h4>Max Larson Henry</h4>
                 <span>Secretaire, PDG Transversal</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -568,10 +569,10 @@
                 <h4>Myrna Verdier</h4>
                 <span>Conseilliere, PDG Ferme des Antilles</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -584,10 +585,10 @@
                 <h4>Yves Francois </h4>
                 <span>Conseiller, PDG YCF Group</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -600,10 +601,10 @@
                 <h4>Brona Cusack</h4>
                 <span>Conseilliere, Directrice de programme Digicel Entrepreneur de l'Annee</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -618,10 +619,10 @@
                 <h4>Lionel Pressoir</h4>
                 <span>Conseiller, PDG Tour Haiti/Logistic S.A</span>
                 <div class="social">
-                  <a href=""><i class="fa fa-twitter"></i></a>
-                  <a href=""><i class="fa fa-facebook"></i></a>
-                  <a href=""><i class="fa fa-google-plus"></i></a>
-                  <a href=""><i class="fa fa-linkedin"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -654,7 +655,7 @@
           <div class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
-              <h3>Phone Number</h3>
+              <h3>Téléphone</h3>
               <p><a href="tel:+155895548855">+509 3740 3130</a></p>
             </div>
           </div>
@@ -671,6 +672,7 @@
       </div>
 
       <div class="container mb-4">
+        <small>vous pouvez suivre notre itinéraire depuis google maps</small>
         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3783.3457159696513!2d-72.28385!3d18.513273!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eb9e87d5e706915%3A0xa1625fe8686e8e20!2s38+Rue+Darguin%2C+Port-au-Prince!5e0!3m2!1sen!2sht!4v1553468875296" width="1366" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
 
@@ -725,7 +727,7 @@
           Licensing information: https://bootstrapmade.com/license/
           Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Reveal
         -->
-        Designed by <a href="#">Ralph Winner Deus</a>
+        <!-- Designed by <a href="#">Ralph Winner Deus</a> -->
       </div>
     </div>
   </footer><!-- #footer -->

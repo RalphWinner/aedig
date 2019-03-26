@@ -21,7 +21,7 @@ def message(request):
 		message = data[4]['value']
 
 		infos = 'Nom: ' + name + '\nemail: ' + email + '\nSujet: ' + subject + '\nMessage: ' + message
-		template = 'Salut Mr RalphWinner, Nouveau Message!!!!! \n ' + infos
+		template = 'Salut Aedig! Nouveau Message:  \n ' + infos
 
 		#Code for the email Sender... Lolllllz
 
